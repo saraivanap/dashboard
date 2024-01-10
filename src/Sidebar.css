@@ -1,0 +1,31 @@
+/* Sidebar.css */
+.Sidebar {
+  background-color: #ffffff; /* Fundo branco */
+  color: #000000; /* Texto preto */
+  padding: 20px;
+  height: 100vh; /* Altura total da barra lateral */
+  border: none;
+}
+
+.Sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.Sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Sidebar li {
+  margin-bottom: 10px;
+}
+
+.Sidebar a {
+  text-decoration: none;
+  color: #000000; /* Texto preto */
+  transition: color 0.3s; /* Transição suave de cor */
+}
+
+.Sidebar a:hover {
+  color: #e3e3e3; /* Cor ao passar o mouse */
+}
