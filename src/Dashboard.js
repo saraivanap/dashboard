@@ -5,9 +5,9 @@ import './Dashboard.css';  // Importando o arquivo CSS
 const Dashboard = () => {
   // Dados estáticos fictícios
   const salesData = [
-    { id: 1, product: 'Produto A', amount: 1500 },
-    { id: 2, product: 'Produto B', amount: 2000 },
-    { id: 3, product: 'Produto C', amount: 1200 },
+    { id: 1, product: 'Planilha A', amount: 1500 },
+    { id: 2, product: 'Planilha B', amount: 2000 },
+    { id: 3, product: 'Planilha C', amount: 1200 },
     // Adicione mais dados conforme necessário
   ];
 
@@ -19,8 +19,8 @@ const Dashboard = () => {
           <thead>
             <tr>
               <th>ID</th>
-              <th>Produto</th>
-              <th>Quantidade</th>
+              <th>Planilha</th>
+              <th>Grau Crítico</th>
             </tr>
           </thead>
           <tbody>
