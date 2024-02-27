@@ -9,9 +9,9 @@ const Sidebar = () => {
     <Card className="Sidebar">
       <Card.Body>
         <ul>
-          <li><Link to="/pagina_inicial">Página Inicial</Link></li>
-          <li><Link to="/pagina_inicial">Planilhas</Link></li>
-          <li><Link to="/pagina_inicial">Etapas</Link></li>
+          <li><Link to="/pagina_inicial">requisito 1</Link></li>
+          <li><Link to="/pagina_inicial">requisito 2</Link></li>
+          <li><Link to="/pagina_inicial">Resultado</Link></li>
           {/* Adicione mais links conforme necessário */}
         </ul>
       </Card.Body>

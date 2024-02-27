@@ -1,40 +1,42 @@
 /* Header.css */
+
 .Header {
-    background-color: #ffffff; /* Fundo branco */
-    color: #000000; /* Texto preto */
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .HeaderLeft {
-    display: flex;
-    align-items: center;
-  }
-  
-  .ProfileIcon img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px; /* Espaço entre o ícone e o campo de pesquisa */
-  }
-  
-  .SearchTab {
-    display: flex;
-    align-items: center;
-  }
-  
-  .SearchTab input {
-    padding: 5px;
-    margin-right: 10px;
-  }
-  
-  .SearchTab button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffff;
+  color: #0000;
+  padding: 10px 20px;
+}
+
+.HeaderLeft h2 {
+  margin: 0;
+}
+
+.HeaderRight {
+  display: flex;
+  align-items: center;
+}
+
+.SearchTab {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para os botões na classe .SearchTab */
+.SearchTab button {
+  margin-right: 10px;
+  background-color: #ffffff; /* Fundo branco */
+  color: #000000; /* Letra preta */
+  border: none; /* adicionar borda depois */
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Estilos para o ícone de perfil */
+.ProfileIcon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}

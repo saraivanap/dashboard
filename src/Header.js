@@ -11,8 +11,8 @@ const Header = () => {
       </div>
       <div className="HeaderRight">
       <div className="SearchTab">
-          <input type="text" placeholder="Pesquisar" />
-          <button>Buscar</button>
+          <button>Salvar Rascunho</button>
+          <button>Download</button>
           <div className="ProfileIcon">
           <img src={ProfileIcon} alt="Ícone de Perfil" />
         </div>
