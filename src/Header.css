@@ -4,9 +4,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffff;
-  color: #0000;
   padding: 10px 20px;
+}
+
+.Separator {
+  border: none;
+  border-top: 3px solid #006633; /* cor e estilo da linha */
+  margin: 0px 10; /* margem superior e inferior do separador */
 }
 
 .HeaderLeft h2 {
@@ -26,9 +30,9 @@
 /* Estilos para os botões na classe .SearchTab */
 .SearchTab button {
   margin-right: 10px;
-  background-color: #ffffff; /* Fundo branco */
+  background-color: #fff; /* Fundo branco */
   color: #000000; /* Letra preta */
-  border: none; /* adicionar borda depois */
+  border-radius: 30px;
   padding: 8px 16px;
   cursor: pointer;
 }
@@ -40,3 +44,5 @@
   border-radius: 50%;
   margin-left: 10px;
 }
+
+

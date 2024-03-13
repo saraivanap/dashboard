@@ -1,10 +1,11 @@
 /* Sidebar.css */
 .Sidebar {
   background-color: #ffffff; /* Fundo branco */
-  color: #000000; /* Texto preto */
-  padding: 20px;
-  height: 100vh; /* Altura total da barra lateral */
+  color: #000000; /* texto preto */
+  padding: 10px;
+  height: 100%; /* altura total da barra lateral */
   border: none;
+  font-size: 25px;
 }
 
 .Sidebar h2 {
@@ -28,34 +29,33 @@
 
 .Sidebar a {
   text-decoration: none;
-  color: #000000; /* Texto preto */
-  transition: color 0.3s; /* Transição suave de cor */
+  color: #000000; /* texto preto */
+  transition: color 0.3s; /* transição suave de cor */
 }
 
 .Sidebar a:hover {
-  color: #e3e3e3; /* Cor ao passar o mouse */
+  color: #e3e3e3; /* cor ao passar o mouse */
 }
 
 
 .SidebarBottom {
-  margin-top: 30px;
-  text-align: bottom;
+  margin-bottom: auto;
   text-align: center;
 }
 
 .LogoutButton {
-  border-radius: 30px; /* Valor alto para uma borda redonda */
-  background-color: #006633; /* Cor de fundo do botão */
-  color: #ffffff; /* Cor do texto do botão */
-  transition: color 0.3s; /* Transição suave de cor */
-  border: none; /* Remover a borda padrão */
-  padding: 10px 20px;
-  cursor: pointer;
-  
+  border-radius: 30px; /* borda redonda */
+  background-color: #006633; /* cor de fundo do botão */
+  color: #ffffff; /* cor do texto do botão */
+  transition: color 0.3s; /* transição suave de cor */
+  border: none; /* remover a borda padrão */
+  padding: 5px 30px;
+  cursor: pointer;  
+  font-size: 20px;
 }
 
 .LogoutButton:hover {
-  background-color: #000000; /* Cor de fundo ao passar o mouse */
+  background-color: #000000; /* cor de fundo ao passar o mouse */
 
 }
 

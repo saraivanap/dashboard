@@ -1,24 +1,68 @@
 .Dashboard {
   width: 80%;
   margin: 20px auto;
+  border: none;
 }
 
 h2 {
   color: #333;
 }
 
+p {
+  color: #f2f2f2;
+  text-align: right;
+  background-color: #063;
+  margin-left: 800px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.NewLine {
+  margin-bottom: 20px; /* adiciona um espaçamento na parte inferior da nova linha */
+}
+
+/* títulos */
+h4 {
+  font-size: 20px; 
+  margin-bottom: 10px; /* espaçamento na parte inferior do título */
+  color: #333;
+}
+
+/* containers de input */
+.InputContainer {
+  display: flex;
+  flex-direction: column; /* organiza os inputs em uma coluna */
+}
+
+/* inputs */
+.InputContainer input {
+  width: 90%; /* largura ocupada do container */
+  padding: 30px; /* espaçamento interno aos inputs */
+  margin-bottom: 20px; /* espaçamento na parte inferior dos inputs */
+  border: 1px solid #c9c9c9; /* borda aos inputs */
+  border-radius: none; /* cantos arredondados aos inputs */
+}
+
 table {
   width: 100%;
-  border-collapse: collapse;
+  border: none;
   margin-top: 20px;
 }
 
-th, td {
-  border: 1px solid #ddd;
+th { /* inverti pq o preto tava muito "bruto" */
+  background-color: #fff; /*fundo do cabeçalho da tabela*/
+  color: #000; /*texto do cabeçalho*/
+}
+
+td {
+  border: 1px solid #c9c9c9;
   padding: 8px;
   text-align: left;
 }
 
-th {
-  background-color: #f2f2f2;
+.Separator {
+  border: none;
+  border-top: 3px solid #006633; /* cor e estilo da linha */
+  margin: 0px 10; /* margem superior e inferior do separador */
+  background-color: #006633 !important; /* por algum motivo tá ficando transparente*/
 }
